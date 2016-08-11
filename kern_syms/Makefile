@@ -13,6 +13,6 @@ clean:
 else
 
 $(info Building with KERNELRELEASE = ${KERNELRELEASE})
-obj-m :=    kern_syms.o
+obj-m :=    jiffies.o
 
 endif
